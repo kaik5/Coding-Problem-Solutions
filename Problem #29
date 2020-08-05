@@ -8,8 +8,8 @@ public class TestAlgo
 {
     public static void main(String[] args)
     {
-        String str = "AAAABBBCCDAAA" +
-                "";
+        String str = "AAAABBBCCDAAA";
+           
         String str2 = "4A2B3C4D";
 
         encode(str);
