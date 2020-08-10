@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 //Each method has one iteration, so the overall time complexity is O(n).
-public class TestAlgo
+public class DailyCoding29
 {
     public static void main(String[] args)
     {
