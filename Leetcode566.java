@@ -5,7 +5,11 @@ class Solution
         //if the array is null or the dimension is not matched, return.
         if(nums == null || r * c != nums.length * nums[0].length)
             return nums;
+        
+        //create an new array so we can copy the elements into the new array
         int[][] output_arr = new int[r][c];
+        
+        // we can use the new rows and columns to control the dimension of the array
         int new_rows = 0;
         int new_cols = 0;
         
